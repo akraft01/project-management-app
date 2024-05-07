@@ -1,9 +1,17 @@
-# Vue 3 + Vite
+# Project Management App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple yet elegant Vue.js application that displays project information, including project titles, descriptions, and other key details. It fetches data from a `projects.json` file and presents it in a user-friendly interface.
 
-## Recommended IDE Setup
+### 🌐 [Live Demo](https://projects-management-vueapp.netlify.app/)
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+## Features
 
-https://projects-management-vueapp.netlify.app/
+- **Project List**: Browse project titles and key details.
+- **Detailed View Modal**: Click on a project for a detailed view in a modal.
+- **Search and Sort**: Easily search for projects and sort by name or PE Code.
+- 
+## Technologies Used
+
+- **[Vue.js 3](https://vuejs.org/)**: JavaScript framework for building user interfaces.
+- **[Vite](https://vitejs.dev/)**: Next generation front-end tool for faster builds.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Utility-first CSS framework for rapid UI development.
