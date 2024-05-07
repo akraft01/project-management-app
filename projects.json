@@ -1,0 +1,2467 @@
+[
+
+    {
+
+        "id": "gid://gitlab/Project/3728",
+
+        "fullPath": "valkyrie/valkyrie",
+
+        "webUrl": "https://gitlab.k8s.cloud.statcan.ca/valkyrie/valkyrie",
+
+        "visibility": "internal",
+
+        "topics": [],
+
+        "descriptionHtml": "<p data-sourcepos=\"1:1-1:322\" dir=\"auto\">This project is the replacement of the legacy consumer prices micro edit and imputation system (Phoenix).  This project aim to move away from the standard collection approach to today’s evolving collection strategies such as the retailer’s scanner data, web scrapping and web application programming interfaces (API).</p>",
+
+        "environments": [
+
+            {
+
+                "name": "Development",
+
+                "externalUrl": null,
+
+                "state": "available"
+
+            }
+
+        ],
+
+        "fiscal": [
+
+            2024
+
+        ],
+
+        "milestones": [
+
+            {
+
+                "title": "\" -User interfaces for manual capture and editing of price data \"",
+
+                "state": "active",
+
+                "startDate": null,
+
+                "dueDate": null,
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 0
+
+                },
+
+                "webPath": "/valkyrie/valkyrie/-/milestones/9"
+
+            },
+
+            {
+
+                "title": "\" -Standardization for Unit of Measure and quality adjustments  \"",
+
+                "state": "active",
+
+                "startDate": null,
+
+                "dueDate": null,
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 0
+
+                },
+
+                "webPath": "/valkyrie/valkyrie/-/milestones/8"
+
+            },
+
+            {
+
+                "title": "\" -The removal and application of taxes \"",
+
+                "state": "active",
+
+                "startDate": null,
+
+                "dueDate": null,
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 0
+
+                },
+
+                "webPath": "/valkyrie/valkyrie/-/milestones/7"
+
+            },
+
+            {
+
+                "title": "\" -Automated imputations, edits and statistical treatments \"",
+
+                "state": "active",
+
+                "startDate": null,
+
+                "dueDate": null,
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 0
+
+                },
+
+                "webPath": "/valkyrie/valkyrie/-/milestones/6"
+
+            },
+
+            {
+
+                "title": "\" -Representative Product and tax metadata modelling tools \"",
+
+                "state": "active",
+
+                "startDate": null,
+
+                "dueDate": null,
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 0
+
+                },
+
+                "webPath": "/valkyrie/valkyrie/-/milestones/5"
+
+            },
+
+            {
+
+                "title": "\"  -Production cycle management features \"",
+
+                "state": "active",
+
+                "startDate": null,
+
+                "dueDate": null,
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 0
+
+                },
+
+                "webPath": "/valkyrie/valkyrie/-/milestones/4"
+
+            },
+
+            {
+
+                "title": "\"  -Output data to the Prices Reporting Depot (PRAD)\"",
+
+                "state": "active",
+
+                "startDate": null,
+
+                "dueDate": null,
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 0
+
+                },
+
+                "webPath": "/valkyrie/valkyrie/-/milestones/3"
+
+            },
+
+            {
+
+                "title": "\"  -Output data to Cygnus for index estimation \"",
+
+                "state": "active",
+
+                "startDate": null,
+
+                "dueDate": null,
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 0
+
+                },
+
+                "webPath": "/valkyrie/valkyrie/-/milestones/2"
+
+            },
+
+            {
+
+                "title": "\"  -Ingesting data from a variety of pre-processing systems with different data layouts and variables \"",
+
+                "state": "active",
+
+                "startDate": null,
+
+                "dueDate": null,
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 0
+
+                },
+
+                "webPath": "/valkyrie/valkyrie/-/milestones/1"
+
+            }
+
+        ],
+
+        "projectMetaState": "VALID",
+
+        "projectStatusState": "VALID",
+
+        "contact": "Marc Gingras marc.gingras@statcan.gc.ca",
+
+        "businessPartnerContact": "Pamela Wilcox pamela.wilcox@statcan.gc.ca",
+
+        "businessPartnerDivisionFrc": "54100",
+
+        "dpmoJiraKey": "PMPPM",
+
+        "peCode": "7928",
+
+        "wid": "100112",
+
+        "gateAccessibility": {
+
+            "status": "planned",
+
+            "date": "2024-06-01"
+
+        },
+
+        "gateAuthorityToOperate": {
+
+            "status": "completed",
+
+            "date": "2021-09-13"
+
+        },
+
+        "status": {
+
+            "lastUpdated": "2024-03-28T20:12:42+00:00",
+
+            "items": [
+
+                "(Completed) Sprint 69: 10% Design (Outlet), 55% Developement (SPO, PO, State matrix, Receive Data, RP Flags) 30% bugs (RP, TPO)",
+
+                "(Completed) 2024-25 LoA for PPMP DG signature",
+
+                "(Completed) Create new version of the application in .Net 8",
+
+                "(Completed) Setup Production environement for Apllication Vulnaribility Assesment (AVA)",
+
+                "(In progress) Requirement revue for Data Accessibility",
+
+                "(In Progress) Perform security review by IT Sec for iATO renewal",
+
+                "(In Progress) Update the PPMP CONOPS using new template for iATO renewal",
+
+                "(In Progress) UAT planning for coming modules",
+
+                "(Upcoming) Security setting using AAD group",
+
+                "(Upcoming) Migrate Valkyrie to .Net 8",
+
+                "(Upcoming) Perform Apllication Vulnaribility Assesment (AVA) on Valkyrie by IT-Sec"
+
+            ]
+
+        },
+
+        "name": "(PPMP) Price Processing Modules",
+
+        "risks": [
+
+            {
+
+                "key": "PMPPM-30",
+
+                "title": "IT staffing churn is causing delays in the project.",
+
+                "type": "Outstanding Issue",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25981&avatarType=issuetype",
+
+                "priority": "Major",
+
+                "priority_icon": "https://jirab.statcan.ca/images/icons/priorities/major.svg",
+
+                "probability": "High (Very likely)||Élevée (Fort probable)",
+
+                "url": "https://jirab.statcan.ca/browse/PMPPM-30"
+
+            },
+
+            {
+
+                "key": "PMPPM-18",
+
+                "title": "Increased frequency of basket updates could cause delays for CPD to do UAT activities",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "High (Very likely)||Élevée (Fort probable)",
+
+                "residual_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "url": "https://jirab.statcan.ca/browse/PMPPM-18"
+
+            },
+
+            {
+
+                "key": "PMPPM-5",
+
+                "title": "Due to shared IT project resources there is a risk that resource availability be reduced  which  may impact the schedule (SM, IT)",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "url": "https://jirab.statcan.ca/browse/PMPPM-5"
+
+            },
+
+            {
+
+                "key": "PMPPM-6",
+
+                "title": "There is a risk that the design may impact other systems integration which may not be in-scope and accounted for in the budget.",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMPPM-6"
+
+            },
+
+            {
+
+                "key": "PMPPM-3",
+
+                "title": "Due to evolutions happening outside the division but as part of the corporate solutions there is a risk that we may be required to comply to and integrate to our solution  which could result in schedule change",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "Low (Minor)||Faible (Mineure)",
+
+                "probability": "Low (Unlikely)||Faible (Improbable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMPPM-3"
+
+            },
+
+            {
+
+                "key": "PMPPM-4",
+
+                "title": "Due to projects happening in parallel within the division, there is a risk that new requirements for the new system to come later in the process  which may introduce delays in the schedule",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "Low (Minor)||Faible (Mineure)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMPPM-4"
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        "id": "gid://gitlab/Project/3950",
+
+        "fullPath": "itpd-essd/division/projects/chms",
+
+        "webUrl": "https://gitlab.k8s.cloud.statcan.ca/itpd-essd/division/projects/chms",
+
+        "visibility": "internal",
+
+        "topics": [],
+
+        "descriptionHtml": "<p data-sourcepos=\"1:1-1:348\" dir=\"auto\">The Canadian Health Measure System Redesign project aims to implement a new platform to support the Canadian Health Measure Survey. The platform will include new tools for  respondent collection, managing clinic sites and respondent appointments, tracking respondent specimen samples and integration with existing supporting health measures system.</p>",
+
+        "environments": [],
+
+        "fiscal": [
+
+            2024
+
+        ],
+
+        "milestones": [
+
+            {
+
+                "title": "MEC Application Redesign (CCPD is the lead)",
+
+                "state": "active",
+
+                "startDate": "2023-06-01",
+
+                "dueDate": "2023-12-31",
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 0
+
+                },
+
+                "webPath": "/itpd-essd/division/projects/chms/-/milestones/1"
+
+            },
+
+            {
+
+                "title": "RFP Procurement activities (CCPD is the lead)",
+
+                "state": "active",
+
+                "startDate": "2023-06-01",
+
+                "dueDate": "2024-03-29",
+
+                "stats": {
+
+                    "closedIssuesCount": 1,
+
+                    "totalIssuesCount": 2
+
+                },
+
+                "webPath": "/itpd-essd/division/projects/chms/-/milestones/5"
+
+            },
+
+            {
+
+                "title": "AAW environment - Technical, User and Overhead Support (ADCPD is the lead)",
+
+                "state": "active",
+
+                "startDate": "2023-06-01",
+
+                "dueDate": "2024-03-31",
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 0
+
+                },
+
+                "webPath": "/itpd-essd/division/projects/chms/-/milestones/7"
+
+            },
+
+            {
+
+                "title": "IT integration of LIMS (CCPD is the lead)",
+
+                "state": "active",
+
+                "startDate": "2024-01-02",
+
+                "dueDate": "2024-03-31",
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 0
+
+                },
+
+                "webPath": "/itpd-essd/division/projects/chms/-/milestones/6"
+
+            },
+
+            {
+
+                "title": "Respondent Portal - MVP Solution (CCPD is the lead)",
+
+                "state": "active",
+
+                "startDate": "2023-10-01",
+
+                "dueDate": "2024-03-31",
+
+                "stats": {
+
+                    "closedIssuesCount": 3,
+
+                    "totalIssuesCount": 3
+
+                },
+
+                "webPath": "/itpd-essd/division/projects/chms/-/milestones/4"
+
+            },
+
+            {
+
+                "title": "Accommodate Oral Health into existing MEC app (CCPD is the lead)",
+
+                "state": "active",
+
+                "startDate": "2024-01-02",
+
+                "dueDate": "2024-03-31",
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 0
+
+                },
+
+                "webPath": "/itpd-essd/division/projects/chms/-/milestones/2"
+
+            }
+
+        ],
+
+        "projectMetaState": "VALID",
+
+        "projectStatusState": "VALID",
+
+        "contact": "Steven Melo steven.melo@statcan.gc.ca",
+
+        "businessPartnerContact": "Jennifer Servais jennifer.servais@statcan.gc.ca",
+
+        "businessPartnerDivisionFrc": "82400",
+
+        "dpmoJiraKey": "PMCHMSR",
+
+        "peCode": "7934",
+
+        "wid": "100146",
+
+        "gateAccessibility": {
+
+            "status": "planned",
+
+            "date": "2024-03-31"
+
+        },
+
+        "gateAuthorityToOperate": {
+
+            "status": "planned",
+
+            "date": "2024-12-31"
+
+        },
+
+        "status": {
+
+            "lastUpdated": "2024-03-14T13:03:11+00:00",
+
+            "items": [
+
+                "<p><strong>MEC App Development:</strong> </p>\n<ul>\n<li>Sprint 55 is currently underway and continues to focus on enhancements to the MEC to accomodate multiple health measure surveys.</li>\n<li>Completed an LOA planning session with the support team from ITOS. Several deliverables were identified as well as the expected funding (~1.5 FTE)</li>\n<li>The final LOA planning meeting is scheduled for March 18 and will focus on any remaining work items for the MEC App<ul>\n<li>The assumption is that integration between LIMS and MEC app will consume most of the work next FY so any remaining MEC app development will focus on critical functionality only.</li>\n</ul>\n</li>\n<li>Contacted CSD to inform them of the 4 security assessments that will be required for next FY and to get estimates for the work. The due dates to have these completed were also highlighted. The intent is to ensure they have capacity since our request this FY was deferred due to lack of capacity.</li>\n</ul>",
+
+                "<p><strong>LIMS Procurement:</strong> </p>\n<ul>\n<li>RFP posting is now closed. There were 6 bids.</li>\n<li>The bid evaluation team has successfully completed the evaluation of the responses to the mandatory requirements for 5/6 bids. The remaining evaluation should be completed by March 15.<ul>\n<li>Only submissions that successfully meet the mandatory requirements will be considered for further evaluation (i.e. evaluating the rated requirements and financial bid)</li>\n<li>There are a few responses to requirements that will require clarification from the bidder. PSPC will be engaged to coordinate the call back to those bidders.</li>\n</ul>\n</li>\n<li><strong>Keeping this timeline for reference</strong><ul>\n<li>Proposed timeline for the remaining activities:<ul>\n<li><del>Week of Dec 4/23: RFI posted</del></li>\n<li><del>Week of Jan 8/24: RFP open to public</del></li>\n<li>Week of Mar 4/24: Evaluate bids</li>\n<li>Week of Mar 25/24: Winning bid identified, start contract negotiations</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+
+                "<p><strong>Respondent Portal</strong></p>\n<ul>\n<li>Completed Sprint 2 and delivered the second use case scenario: Register Respondent Account</li>\n<li>Sprint 3 is currently in progress. This sprint will build upon the use case scenario delivered in sprint 2 </li>\n<li>Completed a second planning session for the LOA. The emphasis was placed on identifying the test results that will display to the respondent, what the format will look like and the required data points. CDHM has indicated they want results to be interactive and easy to understand but have provided little information or examples of what that means. Prototypes have been requested for no later than June 1.</li>\n<li>A UX resource has been requested for next FY to help with design and/or prototypes elaboration.</li>\n</ul>"
+
+            ]
+
+        },
+
+        "name": "(CHMS) Canadian Health Measure System Redesign",
+
+        "risks": [
+
+            {
+
+                "key": "PMCHMSR-44",
+
+                "title": "Onboarding and Integration of LIMS",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+               "impact": "High (Major)||Élevée (Majeure)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "High (Major)||Élevée (Majeure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMCHMSR-44"
+
+            },
+
+            {
+
+                "key": "PMCHMSR-14",
+
+                "title": "Procurement of LIMS",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "High (Major)||Élevée (Majeure)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "High (Major)||Élevée (Majeure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMCHMSR-14"
+
+            },
+
+            {
+
+                "key": "PMCHMSR-40",
+
+                "title": "MEC IT Ecosystems - Architecture revamp",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "High (Major)||Élevée (Majeure)",
+
+                "inherent_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "probability": "Low (Unlikely)||Faible (Improbable)",
+
+                "residual_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "url": "https://jirab.statcan.ca/browse/PMCHMSR-40"
+
+            },
+
+            {
+
+                "key": "PMCHMSR-15",
+
+                "title": "Content Delivery (EQ Specs) to Integrate in MEC App",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium",
+
+                "inherent_risk": "Medium",
+
+                "probability": "Low (Unlikely)||Faible (Improbable)",
+
+                "residual_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "url": "https://jirab.statcan.ca/browse/PMCHMSR-15"
+
+            },
+
+            {
+
+                "key": "PMCHMSR-42",
+
+                "title": "Cloud cost for collection tools",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "High (Major)||Élevée (Majeure)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMCHMSR-42"
+
+            },
+
+            {
+
+                "key": "PMCHMSR-18",
+
+                "title": "Complexity of systems requirements could increase the scope of the project.",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium",
+
+                "inherent_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "probability": "Low (Unlikely)||Faible (Improbable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMCHMSR-18"
+
+            },
+
+            {
+
+                "key": "PMCHMSR-23",
+
+                "title": "MEC Collection Mode - Outside of MEC (Home Visits, Temporary Space)",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Low (Minor)||Faible (Mineure)",
+
+                "inherent_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMCHMSR-23"
+
+            },
+
+            {
+
+                "key": "PMCHMSR-16",
+
+                "title": "MEC IT Ecosystems - Infrastructure Revamp",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "High",
+
+                "inherent_risk": "Low (Minor)||Faible (Mineure)",
+
+                "probability": "Low (Unlikely)||Faible (Improbable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMCHMSR-16"
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        "id": "gid://gitlab/Project/7649",
+
+        "fullPath": "gensys/banff/banff_redesign",
+
+        "webUrl": "https://gitlab.k8s.cloud.statcan.ca/gensys/banff/banff_redesign",
+
+        "visibility": "internal",
+
+        "topics": [
+
+            "Python",
+
+            "sas",
+
+            "JSON",
+
+            "open source",
+
+            "user-written SAS procedure",
+
+            "banff",
+
+            "banff redesign"
+
+        ],
+
+        "descriptionHtml": "<p data-sourcepos=\"1:1-2:297\" dir=\"auto\">Official repository for the procedure components of the Banff_redesign.&#x000A;Banff is a Statistics Canada generalized system that offers methods of editing and imputing survey data in the form of nine modules. The modules are easy to use and present a standard interface that is well documented. They offer methods that are known and have been approved at Statistics Canada.</p>",
+
+        "environments": [],
+
+        "fiscal": [
+
+            2024
+
+        ],
+
+        "milestones": [],
+
+        "projectMetaState": "VALID",
+
+        "projectStatusState": "VALID",
+
+        "contact": "Dany Brazeau Dany.Brazeau@statcan.gc.ca",
+
+        "businessPartnerContact": "Etienne Rassart etienne.rassart@statcan.gc.ca",
+
+        "businessPartnerDivisionFrc": "67100",
+
+        "dpmoJiraKey": "PMBANFF",
+
+        "peCode": "7122",
+
+        "wid": "100229",
+
+        "gateAccessibility": {
+
+            "status": "planned",
+
+            "date": "2025-03-31"
+
+        },
+
+        "gateAuthorityToOperate": {
+
+            "status": "planned",
+
+            "date": "2025-03-31"
+
+        },
+
+        "status": {
+
+            "lastUpdated": "2024-04-29T20:16:33+00:00",
+
+            "items": [
+
+                
+
+            ]
+
+        },
+
+        "name": "Banff Redesign",
+
+        "risks": [
+
+            {
+
+                "key": "PMBANFF-8",
+
+                "title": "Potential schedule and cost variance resulting from dependency on staffing actions",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Low (Minor)||Faible (Mineure)",
+
+                "inherent_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMBANFF-8"
+
+            },
+
+            {
+
+                "key": "PMBANFF-3",
+
+                "title": "Unexpected change in statistical processing environments",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMBANFF-3"
+
+            },
+
+            {
+
+                "key": "PMBANFF-1",
+
+                "title": "Changing Client Requirements",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "probability": "Low (Unlikely)||Faible (Improbable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMBANFF-1"
+
+            },
+
+            {
+
+                "key": "PMBANFF-10",
+
+                "title": "Risk of further delays to re-establish project team",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Low (Minor)||Faible (Mineure)",
+
+                "inherent_risk": "Low (Minor)||Faible (Mineure)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMBANFF-10"
+
+            },
+
+            {
+
+                "key": "PMBANFF-7",
+
+                "title": "Current resources (IT or Methodology) are re-allocated to other priorities",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "Low (Minor)||Faible (Mineure)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMBANFF-7"
+
+            },
+
+            {
+
+                "key": "PMBANFF-2",
+
+                "title": "Changing resource costs",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Low (Minor)||Faible (Mineure)",
+
+                "inherent_risk": "Low (Minor)||Faible (Mineure)",
+
+                "probability": "Low (Unlikely)||Faible (Improbable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMBANFF-2"
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        "id": "gid://gitlab/Project/11132",
+
+        "fullPath": "strategy-strategie/project-metadata/business-transformation",
+
+        "webUrl": "https://gitlab.k8s.cloud.statcan.ca/strategy-strategie/project-metadata/business-transformation",
+
+        "visibility": "internal",
+
+        "topics": [],
+
+        "descriptionHtml": "<p data-sourcepos=\"1:1-1:726\" dir=\"auto\">The goal of the Business Transformation project is to modernize employee workspaces through various business applications and visualizations tool, improving how we are managing our data assets, providing easier access to data across the agency with improved data governance and providing a processing platform where users will be able to run their jobs more efficiently and have the ability to scale up or down their environment to suit their needs that fall within their budget. Also included as part of this project is the SAS diversification initiative with the goal to be completely converted off SAS, to offer a more opened architecture and offer its new employees the tools they have learned on through their education.</p>",
+
+        "environments": [],
+
+        "fiscal": [
+
+            2024
+
+        ],
+
+        "milestones": [],
+
+        "projectMetaState": "VALID",
+
+        "projectStatusState": "VALID",
+
+        "contact": "Shawna Kelly shawna.kelly@statcan.gc.ca",
+
+        "businessPartnerContact": "Jonathan Wylie jonathan.wylie@statcan.gc.ca",
+
+        "businessPartnerDivisionFrc": "62000",
+
+        "dpmoJiraKey": "DPMOBTCA",
+
+        "peCode": "4352",
+
+        "gateAccessibility": {
+
+            "status": "planned",
+
+            "date": "2024-03-31"
+
+        },
+
+        "gateAuthorityToOperate": {
+
+            "status": "planned",
+
+            "date": "2024-03-31"
+
+        },
+
+        "status": {
+
+            "lastUpdated": "2024-03-01T18:48:23+00:00",
+
+            "items": [
+
+                "1st iteration of the solution - R and Python",
+
+                "",
+
+                "The implementation team are experiencing some issues with implementing the R and Python environment",
+
+                "Working closely with the Cloud (NOC and NetApp CVO) teams to work through the issues",
+
+                "Daily scrum meetings have been set up to closely monitor progress and address issues as they appear",
+
+                "Cyber security is working closely with the team to help assess the controls that have been completed as part of the SA&amp;A process to get an iATO/ATO for the environment",
+
+                "",
+
+                "Training RFP",
+
+                "",
+
+                "Datacamp licences will be distributed to a small subset of users starting March 4",
+
+                "Information on when STC employees will be able to access the Datacamp site will be distributed soon",
+
+                "",
+
+                "Enterprise Architecture",
+
+                "",
+
+                "The EA team completed a series of workshops to help identify the current state at STC by meeting with main leads for the mission critical systems that are part of the Business Continuity program",
+
+                "Gaps in STC architecture were identified and captured as part of the scope for the procurement exercise that Business Transformation will go through in FY2024-25",
+
+                "",
+
+                "Agile procurement",
+
+                "",
+
+                "Meetings have been taking place between STC and SSC since September 2023.",
+
+                "There were several discussions centered around who would be the project authority for the agile procurement that BT would like to start. Since BT is considering procuring a new data management solution, this is considered a business applicaton which falls under the authority of PSPC.",
+
+                "the latest meeting took place on Feb 28 between TBS, PSPC, SSC and STC. The goal was to discuss our proposed agile procurement request and also discuss if this could be considered an GoC initiative meaning that whatever we procure would become the GoC standard for data management.",
+
+                "It was decided that neither PSPC nor SSC have the capacity to run this agile procurement for STC.",
+
+                "STC will now look into running an RFI to start the exploration process and then if resources become available that can help us run an agile procurement, STC will consider switching at that time."
+
+            ]
+
+        },
+
+        "name": "Business Transformation",
+
+        "risks": [
+
+            {
+
+                "key": "DPMOBTCA-21",
+
+                "title": "Limited resources capacity with administrator privileges for NetAPP at StatCan for manual onboarding to the Zone",
+
+                "type": "Outstanding Issue",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25981&avatarType=issuetype",
+
+                "priority": "High",
+
+                "priority_icon": "https://jirab.statcan.ca/images/icons/priorities/critical.svg",
+
+                "probability": "High (Very likely)||Élevée (Fort probable)",
+
+                "url": "https://jirab.statcan.ca/browse/DPMOBTCA-21"
+
+            },
+
+           {
+
+                "key": "DPMOBTCA-22",
+
+                "title": "Automated connectivity to Field filers via NetAppCVO configured based on specification from vendor is reporting an error",
+
+                "type": "Outstanding Issue",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25981&avatarType=issuetype",
+
+                "priority": "High",
+
+                "priority_icon": "https://jirab.statcan.ca/images/icons/priorities/critical.svg",
+
+                "probability": "High (Very likely)||Élevée (Fort probable)",
+
+                "url": "https://jirab.statcan.ca/browse/DPMOBTCA-22"
+
+            },
+
+            {
+
+                "key": "DPMOBTCA-8",
+
+                "title": "There is a risk that the new targeted enterprise architecture will not have the proper on-going funding support due to not having a plan in place within the agency to pay for it",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "High (Very likely)||Élevée (Fort probable)",
+
+                "residual_risk": "High (Major)||Élevée (Majeure)",
+
+                "url": "https://jirab.statcan.ca/browse/DPMOBTCA-8"
+
+            },
+
+            {
+
+                "key": "DPMOBTCA-2",
+
+                "title": "There is a risk that we do not clearly understand the requirements of the agency due to lack of involvement of IT BA earlier in the project which may have an impact on the solution being widely accepted by the agency in general",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "High (Major)||Élevée (Majeure)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "High (Major)||Élevée (Majeure)",
+
+                "url": "https://jirab.statcan.ca/browse/DPMOBTCA-2"
+
+            },
+
+            {
+
+                "key": "DPMOBTCA-6",
+
+                "title": "There is a risk that the project will not be able to evaluate proposed solutions properly due to not having a proper testing environment available",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "High (Very likely)||Élevée (Fort probable)",
+
+                "residual_risk": "High (Major)||Élevée (Majeure)",
+
+                "url": "https://jirab.statcan.ca/browse/DPMOBTCA-6"
+
+            },
+
+            {
+
+                "key": "DPMOBTCA-25",
+
+                "title": "There could be a gap in user expectations versus the delivered solution (the Zone)",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "High (Major)||Élevée (Majeure)",
+
+                "inherent_risk": "High",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "High (Major)||Élevée (Majeure)",
+
+                "url": "https://jirab.statcan.ca/browse/DPMOBTCA-25"
+
+            },
+
+            {
+
+                "key": "DPMOBTCA-24",
+
+                "title": "Due to amount of inexperienced open-source users at STC, there is risk that their experience in the Zone will be limited which could result in resistance to change in not being able to see the immediate benefits of the Zone",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "High (Major)||Élevée (Majeure)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "url": "https://jirab.statcan.ca/browse/DPMOBTCA-24"
+
+            },
+
+            {
+
+                "key": "DPMOBTCA-23",
+
+                "title": "Using the Zone in combination with still pulling data from filers and databases may have negative impacts on performance ",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "High (Major)||Élevée (Majeure)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "High (Very likely)||Élevée (Fort probable)",
+
+                "residual_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "url": "https://jirab.statcan.ca/browse/DPMOBTCA-23"
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        "id": "gid://gitlab/Project/14936",
+
+        "fullPath": "strategy-strategie/project-metadata/flood-risk-portal",
+
+        "webUrl": "https://gitlab.k8s.cloud.statcan.ca/strategy-strategie/project-metadata/flood-risk-portal",
+
+        "visibility": "internal",
+
+        "topics": [],
+
+        "descriptionHtml": "<p data-sourcepos=\"1:1-1:218\" dir=\"auto\">Build a Flood Risk Awareness Portal to provide centralized flood risk information across Canada paired with actionable risk reduction guidance. Cost recovery project in partnership with the Department of Public Safety.</p>",
+
+        "environments": [],
+
+        "fiscal": [
+
+            2024
+
+        ],
+
+        "milestones": [
+
+            {
+
+                "title": "Deliver Solution Architecture and GC EARB Presentation",
+
+                "state": "active",
+
+                "startDate": null,
+
+                "dueDate": "2024-03-31",
+
+                "stats": {
+
+                    "closedIssuesCount": 1,
+
+                    "totalIssuesCount": 1
+
+                },
+
+                "webPath": "/strategy-strategie/project-metadata/flood-risk-portal/-/milestones/3"
+
+            },
+
+            {
+
+                "title": "Evaluate riskprofiler.ca application",
+
+                "state": "active",
+
+                "startDate": "2023-11-01",
+
+                "dueDate": "2024-03-31",
+
+                "stats": {
+
+                    "closedIssuesCount": 1,
+
+                    "totalIssuesCount": 1
+
+                },
+
+                "webPath": "/strategy-strategie/project-metadata/flood-risk-portal/-/milestones/2"
+
+            },
+
+            {
+
+                "title": "Deliver Internal Prototype",
+
+                "state": "active",
+
+                "startDate": "2023-09-01",
+
+                "dueDate": "2024-03-31",
+
+                "stats": {
+
+                    "closedIssuesCount": 4,
+
+                    "totalIssuesCount": 4
+
+                },
+
+                "webPath": "/strategy-strategie/project-metadata/flood-risk-portal/-/milestones/1"
+
+            }
+
+        ],
+
+        "projectMetaState": "VALID",
+
+        "projectStatusState": "VALID",
+
+        "contact": "Paul Nobossi paul.nobossi@statcan.gc.ca",
+
+        "businessPartnerContact": "Kimberly Boyuk Kimberly.boyuk@statcan.gc.ca",
+
+        "businessPartnerDivisionFrc": "81000",
+
+        "dpmoJiraKey": "PMFRP_JIRA_A",
+
+        "peCode": "5290",
+
+        "wid": "100302",
+
+        "gateAccessibility": {
+
+            "status": "planned",
+
+            "date": "2024-01-02"
+
+        },
+
+        "gateAuthorityToOperate": {
+
+            "status": "planned",
+
+            "date": "2024-03-31"
+
+        },
+
+        "status": {
+
+            "lastUpdated": "2024-03-20T18:26:14+00:00",
+
+            "items": [
+
+                
+
+            ]
+
+        },
+
+        "name": "Flood Risk Portal",
+
+        "risks": [
+
+            {
+
+                "key": "PMFRP_JIRA_A-6",
+
+                "title": "Public Safety may decide to host and embed the portal within the GetPrepared.gc.ca, instead of a standalone portal",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "High (Very likely)||Élevée (Fort probable)",
+
+                "residual_risk": "High (Major)||Élevée (Majeure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMFRP_JIRA_A-6"
+
+            },
+
+            {
+
+                "key": "PMFRP_JIRA_A-1",
+
+                "title": "Due to administrative procedures with PS DSET Team getting into GEO.ca, there is a risk that the FIFRA data might not onboard into GEO.ca in time, which can result in the portal not being delivered on time",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "High (Major)||Élevée (Majeure)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "url": "https://jirab.statcan.ca/browse/PMFRP_JIRA_A-1"
+
+            },
+
+            {
+
+                "key": "PMFRP_JIRA_A-2",
+
+                "title": "Due to uncertainty on the development of the FIFRA data, there is a risk that the FIFRA data may not be available on time, resulting in a delay in delivering the portal.",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "High (Major)||Élevée (Majeure)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "Low (Unlikely)||Faible (Improbable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMFRP_JIRA_A-2"
+
+            },
+
+            {
+
+                "key": "PMFRP_JIRA_A-3",
+
+                "title": "•\tDue to the risk reduction content not being ready at this time, there is a risk that some content that need to be consumed are not in a consumable structure, which may result in a delay and additional costs for the portal.",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "Low (Unlikely)||Faible (Improbable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMFRP_JIRA_A-3"
+
+            },
+
+            {
+
+                "key": "PMFRP_JIRA_A-5",
+
+                "title": "Due to SSC taking over Cloud Operations from Statistics Canada soon, there is a risk that hosting and operations costs may increase, as well as a delay in delivering the portal.",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "Low (Minor)||Faible (Mineure)",
+
+                "probability": "Low (Unlikely)||Faible (Improbable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMFRP_JIRA_A-5"
+
+            },
+
+            {
+
+                "key": "PMFRP_JIRA_A-4",
+
+                "title": "Because the portal will point to external links, there is a risk that some links on the portal change or break without proper change management, which may result in broken links and a negative experience for the end user.",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Low (Minor)||Faible (Mineure)",
+
+                "inherent_risk": "Low (Minor)||Faible (Mineure)",
+
+                "probability": "Low (Unlikely)||Faible (Improbable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMFRP_JIRA_A-4"
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        "id": "gid://gitlab/Project/15290",
+
+        "fullPath": "strategy-strategie/project-metadata/vrdc-virtual-research-data-center",
+
+        "webUrl": "https://gitlab.k8s.cloud.statcan.ca/strategy-strategie/project-metadata/vrdc-virtual-research-data-center",
+
+        "visibility": "internal",
+
+        "topics": [],
+
+        "descriptionHtml": "<p data-sourcepos=\"1:1-2:600\" dir=\"auto\">The Virtual Research Data Centre (vRDC) project, as an essential component of StatCan’s modernization agenda, will replace the current RDC infrastructure to advance the way academic researchers access and analyze StatCan data. By leveraging the current network to upgrade the infrastructure, the vRDC aims to increase the capacity of the RDC network to handle the advanced statistical analysis of large data files, facilitating more research activity and increasing productivity for all researchers.&#x000A;The vRDC will centralize computing resources, improve performance and disaster recovery, and support remote access for accredited RDC researchers across Canada. The infrastructure consists of two central servers located at the University of Waterloo (UW) and Simon Fraser University (SFU), as well as more than three hundred thin clients that will replace the local servers and workstations in the RDCs. The storage of StatCan's microdata files will be centralized at the UW and SFU servers, and all connections to the central servers will be protected via an encrypted Virtual Private Network (VPN).</p>",
+
+        "environments": [],
+
+        "fiscal": [
+
+            2024
+
+        ],
+
+        "milestones": [
+
+            {
+
+                "title": "\" One time data repository downloads from STC Azure data lake storage to vRDC\"",
+
+                "state": "active",
+
+                "startDate": "2023-10-16",
+
+                "dueDate": "2023-10-31",
+
+                "stats": {
+
+                    "closedIssuesCount": 1,
+
+                    "totalIssuesCount": 2
+
+                },
+
+                "webPath": "/strategy-strategie/project-metadata/vrdc-virtual-research-data-center/-/milestones/10"
+
+            },
+
+            {
+
+                "title": "\" Data Provisioning Point \"",
+
+                "state": "active",
+
+                "startDate": "2023-04-03",
+
+                "dueDate": "2023-10-31",
+
+                "stats": {
+
+                    "closedIssuesCount": 3,
+
+                    "totalIssuesCount": 4
+
+                },
+
+                "webPath": "/strategy-strategie/project-metadata/vrdc-virtual-research-data-center/-/milestones/5"
+
+            },
+
+            {
+
+                "title": "\" Physical Inspection of vRDC infrastructure (Waterloo/Simon Fraser University)\"",
+
+                "state": "active",
+
+                "startDate": "2024-03-28",
+
+                "dueDate": "2024-03-29",
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 0
+
+                },
+
+                "webPath": "/strategy-strategie/project-metadata/vrdc-virtual-research-data-center/-/milestones/11"
+
+            },
+
+            {
+
+                "title": "\" vRDC Solution Penetration Testing \"",
+
+                "state": "active",
+
+                "startDate": "2024-03-18",
+
+                "dueDate": "2024-03-31",
+
+                "stats": {
+
+                    "closedIssuesCount": 1,
+
+                    "totalIssuesCount": 3
+
+                },
+
+                "webPath": "/strategy-strategie/project-metadata/vrdc-virtual-research-data-center/-/milestones/9"
+
+            },
+
+            {
+
+                "title": "\" Design/Implement vRDC infrastructure services\"",
+
+                "state": "active",
+
+                "startDate": "2023-07-17",
+
+                "dueDate": "2024-03-31",
+
+                "stats": {
+
+                    "closedIssuesCount": 3,
+
+                    "totalIssuesCount": 4
+
+                },
+
+                "webPath": "/strategy-strategie/project-metadata/vrdc-virtual-research-data-center/-/milestones/8"
+
+            },
+
+            {
+
+                "title": "\" Security Assessment and Accreditation Review & Verification\"",
+
+                "state": "active",
+
+                "startDate": "2023-04-03",
+
+                "dueDate": "2024-03-31",
+
+                "stats": {
+
+                    "closedIssuesCount": 2,
+
+                    "totalIssuesCount": 4
+
+                },
+
+                "webPath": "/strategy-strategie/project-metadata/vrdc-virtual-research-data-center/-/milestones/7"
+
+            }
+
+        ],
+
+        "projectMetaState": "VALID",
+
+        "projectStatusState": "VALID",
+
+        "contact": "Mounia Zaki mounia.zaki@statcan.gc.ca",
+
+        "businessPartnerContact": "Rebecca Williams Rebecca.williams@statcan.gc.ca",
+
+        "businessPartnerDivisionFrc": "84100",
+
+        "dpmoJiraKey": "VRDC_JIRA_A",
+
+        "peCode": "1459",
+
+        "wid": "100259",
+
+        "gateAuthorityToOperate": {
+
+            "status": "planned",
+
+            "date": "2024-05-31"
+
+        },
+
+        "status": {
+
+            "lastUpdated": "2024-04-22T16:44:16+00:00",
+
+            "items": [
+
+                
+
+            ]
+
+        },
+
+        "name": "vRDC - Virtual Research Data Centre",
+
+        "risks": [
+
+            {
+
+                "key": "VRDC_JIRA_A-15",
+
+                "title": "Secure ongoing support connectivity solution has to be evaluated. How will StatCan employees connect to the vRDC? Will StatCan devices work?",
+
+                "type": "Outstanding Issue",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25981&avatarType=issuetype",
+
+                "priority": "High",
+
+                "priority_icon": "https://jirab.statcan.ca/images/icons/priorities/critical.svg",
+
+                "probability": "High (Very likely)||Élevée (Fort probable)",
+
+                "url": "https://jirab.statcan.ca/browse/VRDC_JIRA_A-15"
+
+            },
+
+            {
+
+                "key": "VRDC_JIRA_A-24",
+
+                "title": "A testing plan is needed for the identity solution",
+
+                "type": "Outstanding Issue",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25981&avatarType=issuetype",
+
+                "priority": "Medium",
+
+                "priority_icon": "https://jirab.statcan.ca/images/icons/priorities/medium.svg",
+
+                "probability": "High (Very likely)||Élevée (Fort probable)",
+
+                "url": "https://jirab.statcan.ca/browse/VRDC_JIRA_A-24"
+
+            },
+
+            {
+
+                "key": "VRDC_JIRA_A-29",
+
+                "title": "What is StatCan's involvement in the auditing/monitoring of the CRDCN-managed components of the vRDC infrastructure?",
+
+                "type": "Outstanding Issue",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25981&avatarType=issuetype",
+
+                "priority": "Medium",
+
+                "priority_icon": "https://jirab.statcan.ca/images/icons/priorities/medium.svg",
+
+                "probability": "High (Very likely)||Élevée (Fort probable)",
+
+                "url": "https://jirab.statcan.ca/browse/VRDC_JIRA_A-29"
+
+            },
+
+            {
+
+                "key": "VRDC_JIRA_A-7",
+
+                "title": "Security requirements not satisfied",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "High (Major)||Élevée (Majeure)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "Low (Unlikely)||Faible (Improbable)",
+
+                "residual_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "url": "https://jirab.statcan.ca/browse/VRDC_JIRA_A-7"
+
+            },
+
+            {
+
+                "key": "VRDC_JIRA_A-31",
+
+                "title": "Designing and implementing services of on premises infrastructure",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "High (Major)||Élevée (Majeure)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "High (Very likely)||Élevée (Fort probable)",
+
+                "residual_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "url": "https://jirab.statcan.ca/browse/VRDC_JIRA_A-31"
+
+            },
+
+            {
+
+                "key": "VRDC_JIRA_A-19",
+
+                "title": "Due to technical issues the Canadian Research Data Center Network (CRDCN), there is a risk that the delivery of CRDCN's infrastructure will be delayed, which will result in the vRDC not being delivered according to the schedule agreed.",
+
+                "type": "Risk",
+
+               "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "url": "https://jirab.statcan.ca/browse/VRDC_JIRA_A-19"
+
+            },
+
+            {
+
+                "key": "VRDC_JIRA_A-2",
+
+                "title": "Budget allocated is not sufficient",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "High (Major)||Élevée (Majeure)",
+
+                "inherent_risk": "High (Major)||Élevée (Majeure)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/VRDC_JIRA_A-2"
+
+            },
+
+            {
+
+                "key": "VRDC_JIRA_A-6",
+
+                "title": "Changes required to the Identity Solution after the developer has left the project",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/VRDC_JIRA_A-6"
+
+            },
+
+            {
+
+                "key": "VRDC_JIRA_A-4",
+
+                "title": "Skills gap to operate the Identity solution",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "High (Major)||Élevée (Majeure)",
+
+                "inherent_risk": "Low (Minor)||Faible (Mineure)",
+
+                "probability": "Low (Unlikely)||Faible (Improbable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/VRDC_JIRA_A-4"
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        "id": "gid://gitlab/Project/15419",
+
+        "fullPath": "strategy-strategie/project-metadata/safeto",
+
+        "webUrl": "https://gitlab.k8s.cloud.statcan.ca/strategy-strategie/project-metadata/safeto",
+
+        "visibility": "internal",
+
+        "topics": [],
+
+        "descriptionHtml": "<p data-sourcepos=\"1:1-1:482\" dir=\"auto\">Enable the Toronto’s Ten-Year Community Safety and Well-Being Plan by building a SafeTO Collaborative Analytics and Learning Environment (SCALE) in DAS which will provide insights to the City of Toronto on social indicators &amp; trends in different neighborhoods. The StatCan insights will allow the City of Toronto to better address its social development, Prevention, Risk intervention and Emergency Response goals, and ultimately build a city that promotes safety and well-being.</p>",
+
+        "environments": [],
+
+        "fiscal": [
+
+            2024
+
+        ],
+
+        "milestones": [
+
+            {
+
+                "title": "DAS Terms & Conditions",
+
+                "state": "active",
+
+                "startDate": "2023-04-01",
+
+                "dueDate": "2024-03-31",
+
+                "stats": {
+
+                    "closedIssuesCount": 1,
+
+                    "totalIssuesCount": 2
+
+                },
+
+                "webPath": "/strategy-strategie/project-metadata/safeto/-/milestones/3"
+
+            },
+
+            {
+
+                "title": "- Inbound data Review Process",
+
+                "state": "active",
+
+                "startDate": null,
+
+                "dueDate": null,
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 0
+
+                },
+
+                "webPath": "/strategy-strategie/project-metadata/safeto/-/milestones/8"
+
+            },
+
+            {
+
+                "title": "-MVP2 - Build Monitoring reporting (OPMIC user auditing)",
+
+                "state": "active",
+
+                "startDate": null,
+
+                "dueDate": null,
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 1
+
+                },
+
+                "webPath": "/strategy-strategie/project-metadata/safeto/-/milestones/7"
+
+            },
+
+            {
+
+                "title": "-MVP1 - Onboarding of the housing project",
+
+                "state": "active",
+
+                "startDate": "2023-04-03",
+
+                "dueDate": null,
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 1
+
+                },
+
+                "webPath": "/strategy-strategie/project-metadata/safeto/-/milestones/6"
+
+            },
+
+            {
+
+                "title": "-MVP 1- Soft Release with Bug Fixes",
+
+                "state": "active",
+
+                "startDate": "2024-03-01",
+
+                "dueDate": null,
+
+                "stats": {
+
+                    "closedIssuesCount": 0,
+
+                    "totalIssuesCount": 1
+
+                },
+
+                "webPath": "/strategy-strategie/project-metadata/safeto/-/milestones/5"
+
+            }
+
+        ],
+
+        "projectMetaState": "VALID",
+
+        "projectStatusState": "VALID",
+
+        "contact": "Mounia Zaki mounia.zak@statcan.gc.ca",
+
+        "businessPartnerContact": "Rebecca Kong rebecca.kong@statcan.gc.ca",
+
+        "businessPartnerDivisionFrc": "81000",
+
+        "dpmoJiraKey": "ITPMOSTO",
+
+        "peCode": "2832",
+
+        "wid": "100278",
+
+        "gateAuthorityToOperate": {
+
+            "status": "planned",
+
+            "date": "2024-03-31"
+
+        },
+
+        "status": {
+
+            "lastUpdated": "2024-04-19T19:38:58+00:00",
+
+            "items": [
+
+                
+
+            ]
+
+        },
+
+        "name": "SafeTO",
+
+        "risks": [
+
+            {
+
+                "key": "ITPMOSTO-1",
+
+                "title": "LOA signature by external clients (Toronto) might affect team ability for deliverables requiring LOA signature",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "probability": "High (Very likely)||Élevée (Fort probable)",
+
+                "residual_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "url": "https://jirab.statcan.ca/browse/ITPMOSTO-1"
+
+            },
+
+            {
+
+                "key": "ITPMOSTO-2",
+
+                "title": "DAS Terms & Conditions might not be assessed by Dept of Justice in time for the SafeTo LOA signature",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/ITPMOSTO-2"
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        "id": "gid://gitlab/Project/16352",
+
+        "fullPath": "strategy-strategie/project-metadata/service-management-solution",
+
+        "webUrl": "https://gitlab.k8s.cloud.statcan.ca/strategy-strategie/project-metadata/service-management-solution",
+
+        "visibility": "internal",
+
+        "topics": [],
+
+        "descriptionHtml": "<p data-sourcepos=\"1:1-1:408\" dir=\"auto\">Statistics Canada has identified a number of Service Management processes that are critical or important to business service delivery, yet inefficient to respond to current and upcoming business requirements for a responsive, agile, flexible and Modern IT service delivery. The purpose of this project is to address these issues by designing and implementing a solution that supports the full ITSM processes.</p>",
+
+        "environments": [],
+
+        "fiscal": [
+
+            2024
+
+        ],
+
+        "milestones": [],
+
+        "projectMetaState": "VALID",
+
+        "projectStatusState": "VALID",
+
+        "contact": "Jason Kirby jason.kirby@statcan.gc.ca",
+
+        "businessPartnerContact": "Narciso Zorzi zorzi.narciso@statcan.gc.ca",
+
+        "businessPartnerDivisionFrc": "69300",
+
+        "dpmoJiraKey": "PMESMS",
+
+        "peCode": "4021",
+
+        "wid": "100248",
+
+        "gateAccessibility": {
+
+            "status": "planned",
+
+            "date": "2025-03-31"
+
+        },
+
+        "gateAuthorityToOperate": {
+
+            "status": "planned",
+
+            "date": "2025-03-31"
+
+        },
+
+        "status": {
+
+            "lastUpdated": "2024-01-16T20:52:14+00:00",
+
+            "items": [
+
+                "The project is moving to Production"
+
+            ]
+
+        },
+
+        "name": "(ESMS) Service Management Solution",
+
+        "risks": [
+
+            {
+
+                "key": "PMESMS-28",
+
+                "title": "Incomplete UAT",
+
+                "type": "Outstanding Issue",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25981&avatarType=issuetype",
+
+                "priority": "Minor",
+
+                "priority_icon": "https://jirab.statcan.ca/images/icons/priorities/minor.svg",
+
+               "probability": "High (Very likely)||Élevée (Fort probable)",
+
+                "url": "https://jirab.statcan.ca/browse/PMESMS-28"
+
+            },
+
+            {
+
+                "key": "PMESMS-29",
+
+                "title": "Deployment schedule for accessibility fixes",
+
+                "type": "Outstanding Issue",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25981&avatarType=issuetype",
+
+                "priority": "Minor",
+
+                "priority_icon": "https://jirab.statcan.ca/images/icons/priorities/minor.svg",
+
+                "probability": "High (Very likely)||Élevée (Fort probable)",
+
+                "url": "https://jirab.statcan.ca/browse/PMESMS-29"
+
+            },
+
+            {
+
+                "key": "PMESMS-24",
+
+                "title": "IBM Watson services for BMC Virtual Agent located in United States",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "url": "https://jirab.statcan.ca/browse/PMESMS-24"
+
+            },
+
+            {
+
+                "key": "PMESMS-18",
+
+                "title": "Project budget may not be sufficient for the project scope (limited flexibility for unknowns due to reduced budget)",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium",
+
+                "inherent_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "url": "https://jirab.statcan.ca/browse/PMESMS-18"
+
+            },
+
+            {
+
+                "key": "PMESMS-27",
+
+                "title": "Project schedule may be impacted due to Census BT ",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "probability": "Medium (Likely)||Moyenne (Probable)",
+
+                "residual_risk": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "url": "https://jirab.statcan.ca/browse/PMESMS-27"
+
+            },
+
+            {
+
+                "key": "PMESMS-22",
+
+                "title": "Availability of project team resources and service areas may be impacted due to factors such as strikes, re-organization, competing priorities, budget and resourcing pressures",
+
+               "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Medium (Moderate)||Moyenne (Modérée)",
+
+                "inherent_risk": "Low (Minor)||Faible (Mineure)",
+
+                "probability": "Low (Unlikely)||Faible (Improbable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMESMS-22"
+
+            },
+
+            {
+
+                "key": "PMESMS-19",
+
+                "title": "Complexity, potential changes to requirements and data quality of integration points may impact project schedule and cost",
+
+                "type": "Risk",
+
+                "type_icon": "https://jirab.statcan.ca/secure/viewavatar?size=xsmall&avatarId=25982&avatarType=issuetype",
+
+                "impact": "Low",
+
+                "inherent_risk": "Low (Minor)||Faible (Mineure)",
+
+                "probability": "Low (Unlikely)||Faible (Improbable)",
+
+                "residual_risk": "Low (Minor)||Faible (Mineure)",
+
+                "url": "https://jirab.statcan.ca/browse/PMESMS-19"
+
+            }
+
+        ]
+
+    }
+
+]
